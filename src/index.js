@@ -5,6 +5,7 @@ import './style.css';
 
 
 
+
 class App extends Component {
   constructor() {
     super();
@@ -32,7 +33,7 @@ class App extends Component {
             <input placeholder = "eg. Btech" size="75" required />
           </h2>
           <h2>
-            Field Of Study <br/>
+            Field-Of-Study <br/>
             <input placeholder = "eg. Computer Science" size="75" required />
           </h2>
           <h2>
