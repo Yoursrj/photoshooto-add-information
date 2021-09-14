@@ -3,23 +3,24 @@ h2,h1{
 }
 .main{
   margin-left: 20px;
-  left: 20px; 
-   
+  /* left: 20px;  */
+
+ 
 }
 
 
 .rectangle{
-  position: absolute;
-width: 690px;
+position: absolute;
+width: 680px;
 height: 980px;
 /* left: 250px; */
 right: 300px;
-
 /* top: 80px; */
 background: #bbb6b648;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
-overflow-y: hidden;
+
+
 }
 
 

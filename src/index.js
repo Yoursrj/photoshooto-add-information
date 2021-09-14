@@ -18,12 +18,14 @@ class App extends Component {
     return (
       <div className="rectangle" >
 
-       <div className="main">
-       <h1>
+      <div className="main">
+         
+    
+        <form className='form'>
+        <h1>
           Add Education
         </h1>
         <hr/>
-        <form id='form'>
           <h2>
             School <br/>
             <input placeholder = "eg. Oxford" size="75" required />
@@ -68,10 +70,14 @@ class App extends Component {
             Description <br/>
             <textarea id="w3review" name="w3review" placeholder = "eg. @Oxford"  rows="6" cols="80" required/>    
           </h2> 
-        </form>
-        <button form='form' className="Submit">Cancel</button>
+          <button form='form' className="Submit">Cancel</button>
         <button form='form' className="Submit1">Save</button>
-       </div>
+        </form>
+        
+
+      </div>
+      
+       
         
       </div>
     );
